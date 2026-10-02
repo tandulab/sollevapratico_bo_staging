@@ -1,0 +1,1 @@
+import{h as e}from"./router85831.js";import{t}from"./user-service85831.js";var n=[`users`],r={root:n,lists:[...n,`list`]},i=e({key:r.lists,query:()=>t.fetchUsers()});export{i as n,r as t};

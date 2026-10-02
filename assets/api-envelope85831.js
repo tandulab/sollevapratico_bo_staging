@@ -1,0 +1,1 @@
+function e(e,t){let n={page:e?.meta?.current_page??1,total_pages:e?.meta?.last_page??1,limit:e?.meta?.per_page??0,total:e?.meta?.total??0};return{[t]:Array.isArray(e?.data)?e.data:[],pagination:n}}function t(e){return e?.data}export{t as n,e as t};
